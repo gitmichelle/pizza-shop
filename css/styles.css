@@ -1,0 +1,31 @@
+#logo {
+  height: 300px;
+  width: 300px;
+  margin-left: 75px;
+}
+
+#headertitle {
+  margin-top: 60px;
+  margin-left: 60px;
+}
+
+#headerinfo {
+  margin-left: 100px;
+  margin-top: 25px;
+  height: 150px;
+  width: 300px;
+}
+
+#title {
+  text-align: center;
+  margin: 30px;
+}
+
+#ordermypizza {
+  margin-top: 25px;
+  margin-bottom: 100px;
+}
+
+.receiptwell {
+  display: none;
+}
