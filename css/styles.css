@@ -7,18 +7,21 @@
 #headertitle {
   margin-top: 60px;
   margin-left: 60px;
+  font-family: 'Bangers', sans-serif;
 }
 
 #headerinfo {
-  margin-left: 100px;
+  margin-left: 75px;
   margin-top: 25px;
   height: 150px;
   width: 300px;
+  font-family: 'Bangers', sans-serif;
 }
 
 #title {
   text-align: center;
   margin: 30px;
+  font-family: 'Bangers', sans-serif;
 }
 
 #ordermypizza {
@@ -28,5 +31,16 @@
 
 .receiptwell {
   display: none;
+  margin-top: 50px;
   margin-bottom: 100px;
+  width: 500px;
+  font-family: 'Oswald', sans-serif;
+}
+
+form {
+  font-family: 'Oswald', sans-serif;
+}
+
+#thankyou {
+  font-family: 'Bangers', sans-serif;
 }

@@ -27,6 +27,13 @@ var large = {name:'Large - 18"', price: 18.00};
 var xlarge = {name:'XL - 22"', price: 22.00};
 var sizes = [personal, medium, large, xlarge];
 
+// function resetFields() {
+//   $("input#new-name").val("");
+//   $("#size").val("");
+//   $("#toppings").val("");
+//   $(".new-address").not(":first").remove();
+// }
+
 $(document).ready(function() {
   $("form#new-order").submit(function(event) {
     event.preventDefault();
@@ -58,6 +65,9 @@ $(document).ready(function() {
   $("ul#receiptdetails").append("<li><span class='receiptdetail'>" + "Order name: " + newPizza.orderName + "</span></li>");
   $("ul#receiptdetails").append("<li><span class='receiptdetail'>" + "Order total: $" + newPizza.receipt() + "</span></li>");
   $(".receiptwell").show();
-    $("input#new-name").val("");
+  $("#ordermypizza").hide();
+
+
+
   });
 });
