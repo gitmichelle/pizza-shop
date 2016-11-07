@@ -6,12 +6,10 @@ function Pizza(orderName, pizzaToppings, pizzaSize, toppingsPrice, sizePrice){
   this.sizePrice = sizePrice;
 };
 
-
 Pizza.prototype.receipt = function(){
   var receiptTotal = this.toppingsPrice + this.sizePrice;
   return receiptTotal.toFixed(2);
 };
-
 
 var pepperoni = {name: "Pepperoni", price: 1.00};
 var sausage = {name: "Sausage", price: 1.00};
@@ -26,13 +24,6 @@ var medium = {name: 'Medium - 12"', price: 16.00};
 var large = {name:'Large - 18"', price: 18.00};
 var xlarge = {name:'XL - 22"', price: 22.00};
 var sizes = [personal, medium, large, xlarge];
-
-// function resetFields() {
-//   $("input#new-name").val("");
-//   $("#size").val("");
-//   $("#toppings").val("");
-//   $(".new-address").not(":first").remove();
-// }
 
 $(document).ready(function() {
   $("form#new-order").submit(function(event) {
@@ -66,8 +57,6 @@ $(document).ready(function() {
   $("ul#receiptdetails").append("<li><span class='receiptdetail'>" + "Order total: $" + newPizza.receipt() + "</span></li>");
   $(".receiptwell").show();
   $("#ordermypizza").hide();
-
-
 
   });
 });
