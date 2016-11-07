@@ -9,7 +9,7 @@ function Pizza(orderName, pizzaToppings, pizzaSize, toppingsPrice, sizePrice){
 
 Pizza.prototype.receipt = function(){
   var receiptTotal = this.toppingsPrice + this.sizePrice;
-  return receiptTotal;
+  return receiptTotal.toFixed(2);
 };
 
 
@@ -32,6 +32,7 @@ $(document).ready(function() {
     event.preventDefault();
 
   var inputtedName = $("input#new-name").val();
+
   var toppingsTotal = 0;
   var inputtedToppings = [];
   $('#toppings:checked').each(function() {
@@ -43,6 +44,7 @@ $(document).ready(function() {
       };
     });
   });
+
   var sizeTotal = 0;
    var inputtedSize = $("#size").val();
    sizes.forEach(function(size) {
