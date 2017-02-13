@@ -8,6 +8,11 @@
 
 _This is a website for a pizza company where a user can choose a pizza size and one or more individual toppings then see the final cost._
 
+## Setup Instructions
+
+* _Works in any web browser; [click here] (https://gitmichelle.github.io/pizza-shop/) to view on gh-pages._
+* _Clone repository `https://github.com/gitmichelle/pizza-shop.git`
+
 ## Behavior Driven Development
 
 * _Create a form with name field, option for pizza size, option to choose toppings, and a submit button._
