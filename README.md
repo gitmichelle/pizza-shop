@@ -10,7 +10,7 @@ _This is a website for a pizza company where a user can choose a pizza size and 
 
 ## Setup/Installation Requirements
 
-* _Works in any web browser [click here] (https://gitmichelle.github.io/pizza-shop/) to view on gh-pages._
+* _Works in any web browser; [click here] (https://gitmichelle.github.io/pizza-shop/) to view on gh-pages._
 * _Clone this repository:https://github.com/gitmichelle/pizza-shop.git_
 
 ## Behavior Driven Development
